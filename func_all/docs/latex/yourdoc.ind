@@ -1,0 +1,42 @@
+\begin{theindex}
+
+  \item \spxentry{function}
+    \subitem \spxentry{module}, \hyperpage{1}
+  \item \spxentry{function.main}
+    \subitem \spxentry{module}, \hyperpage{1}
+
+  \indexspace
+
+  \item \spxentry{mary()}\spxextra{in module function.main}, 
+		\hyperpage{1}
+  \item \spxentry{mary()}\spxextra{in module sum.plus}, \hyperpage{1}
+  \item \spxentry{module}
+    \subitem \spxentry{function}, \hyperpage{1}
+    \subitem \spxentry{function.main}, \hyperpage{1}
+    \subitem \spxentry{sum}, \hyperpage{2}
+    \subitem \spxentry{sum.plus}, \hyperpage{1}
+    \subitem \spxentry{umnoj}, \hyperpage{2}
+    \subitem \spxentry{umnoj.krest}, \hyperpage{2}
+
+  \indexspace
+
+  \item \spxentry{print\_hi()}\spxextra{in module function.main}, 
+		\hyperpage{1}
+
+  \indexspace
+
+  \item \spxentry{sum}
+    \subitem \spxentry{module}, \hyperpage{2}
+  \item \spxentry{sum.plus}
+    \subitem \spxentry{module}, \hyperpage{1}
+
+  \indexspace
+
+  \item \spxentry{umnoj}
+    \subitem \spxentry{module}, \hyperpage{2}
+  \item \spxentry{umnoj.krest}
+    \subitem \spxentry{module}, \hyperpage{2}
+  \item \spxentry{umnojit()}\spxextra{in module umnoj.krest}, 
+		\hyperpage{2}
+
+\end{theindex}
