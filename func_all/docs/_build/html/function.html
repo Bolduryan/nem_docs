@@ -16,10 +16,11 @@
     <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/sphinx_highlight.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="sum package" href="sum.html" />
+    <link rel="next" title="дутпыекдопт" href="sum.html" />
     <link rel="prev" title="func_all" href="modules.html" /> 
   </head><body>
     <div class="related" role="navigation" aria-label="related navigation">
@@ -32,7 +33,7 @@
           <a href="py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
         <li class="right" >
-          <a href="sum.html" title="sum package"
+          <a href="sum.html" title="дутпыекдопт"
              accesskey="N">next</a> |</li>
         <li class="right" >
           <a href="modules.html" title="func_all"
@@ -53,9 +54,30 @@
 <section id="submodules">
 <h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this heading">¶</a></h2>
 </section>
-<section id="module-function.main">
-<span id="function-main-module"></span><h2>function.main module<a class="headerlink" href="#module-function.main" title="Permalink to this heading">¶</a></h2>
-<p>sgndrthyfjtd</p>
+<section id="function-main-module">
+<h2>function.main module<a class="headerlink" href="#function-main-module" title="Permalink to this heading">¶</a></h2>
+<section id="test-latex">
+<h3>TEST LATEX<a class="headerlink" href="#test-latex" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\overline{s} = g\left(\overline{m}, \overline{s}, \overline{x}, \overline{m} \right)\)</span></p>
+<p><span class="math notranslate nohighlight">\(0 = \left[ f\left(\overline{m}, \overline{s}, \overline{x}, \overline{m}, \overline{s}, \overline{x} \right) \right]\)</span></p>
+</div></blockquote>
+</section>
+<section id="test-code">
+<h3>TESt CODE<a class="headerlink" href="#test-code" title="Permalink to this heading">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">N</span> <span class="o">=</span> <span class="mi">10000</span>
+
+<span class="n">vec_m</span> <span class="o">=</span> <span class="n">m</span><span class="p">[</span><span class="kc">None</span><span class="p">,:]</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="n">N</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="c1"># we repeat each line N times</span>
+<span class="n">vec_s</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="kc">None</span><span class="p">,:]</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="n">N</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="c1"># we repeat each line N times</span>
+<span class="n">vec_x</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="kc">None</span><span class="p">,:]</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="n">N</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">vec_X</span> <span class="o">=</span> <span class="n">X</span><span class="p">[</span><span class="kc">None</span><span class="p">,:]</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="n">N</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">vec_p</span> <span class="o">=</span> <span class="n">p</span><span class="p">[</span><span class="kc">None</span><span class="p">,:]</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="n">N</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="c1"># actually, except for vec_s, the function repeat is not need since broadcast rules apply</span>
+<span class="n">vec_s</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">linspace</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="n">N</span><span class="p">)</span> <span class="c1"># we provide various guesses for the steady-state capital</span>
+<span class="n">vec_S</span> <span class="o">=</span> <span class="n">vec_s</span>
+</pre></div>
+</div>
+<span class="target" id="module-function.main"></span><p>sgndrthyfjtd</p>
 <dl class="py function">
 <dt class="sig sig-object py" id="function.main.mary">
 <span class="sig-prename descclassname"><span class="pre">function.main.</span></span><span class="sig-name descname"><span class="pre">mary</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/function/main.html#mary"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#function.main.mary" title="Permalink to this definition">¶</a></dt>
@@ -89,8 +111,15 @@
 </dd></dl>
 
 </section>
+</section>
 <section id="module-function">
 <span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-function" title="Permalink to this heading">¶</a></h2>
+<section id="new-part-new-string-mines">
+<h3>New part_new string mines<a class="headerlink" href="#new-part-new-string-mines" title="Permalink to this heading">¶</a></h3>
+<section id="new-part-new-string-plus">
+<h4>New part_new string plus<a class="headerlink" href="#new-part-new-string-plus" title="Permalink to this heading">¶</a></h4>
+</section>
+</section>
 </section>
 </section>
 
@@ -106,12 +135,22 @@
     <ul>
 <li><a class="reference internal" href="#">function package</a><ul>
 <li><a class="reference internal" href="#submodules">Submodules</a></li>
-<li><a class="reference internal" href="#module-function.main">function.main module</a><ul>
+<li><a class="reference internal" href="#function-main-module">function.main module</a><ul>
+<li><a class="reference internal" href="#test-latex">TEST LATEX</a></li>
+<li><a class="reference internal" href="#test-code">TESt CODE</a><ul>
 <li><a class="reference internal" href="#function.main.mary"><code class="docutils literal notranslate"><span class="pre">mary()</span></code></a></li>
 <li><a class="reference internal" href="#function.main.print_hi"><code class="docutils literal notranslate"><span class="pre">print_hi()</span></code></a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#module-function">Module contents</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-function">Module contents</a><ul>
+<li><a class="reference internal" href="#new-part-new-string-mines">New part_new string mines</a><ul>
+<li><a class="reference internal" href="#new-part-new-string-plus">New part_new string plus</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -125,7 +164,7 @@
   <div>
     <h4>Next topic</h4>
     <p class="topless"><a href="sum.html"
-                          title="next chapter">sum package</a></p>
+                          title="next chapter">дутпыекдопт</a></p>
   </div>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
@@ -158,7 +197,7 @@
           <a href="py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
         <li class="right" >
-          <a href="sum.html" title="sum package"
+          <a href="sum.html" title="дутпыекдопт"
              >next</a> |</li>
         <li class="right" >
           <a href="modules.html" title="func_all"
